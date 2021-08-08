@@ -12,6 +12,7 @@ public class StackApp {
 		theStack.push(100);
 		theStack.push(25);
 		 //my first commit
+		//my 2nd commit
 	System.out.println("starting remove the stack");
 	
 	while( !theStack.isEmpty() ) {    // until it is empty, delete item from stack
