@@ -6,7 +6,7 @@ public class StackApp {
 		// TODO Auto-generated method stub
 
          StackX  theStack = new StackX(3);  // create a stack with max size 10
-		
+         System.out.println("add the element the stack");
 		theStack.push(30);  // insert given items
 		theStack.push(80);
 		theStack.push(100);
