@@ -15,7 +15,7 @@ public class link {
 	public void displayDetails() {
 		System.out.println(name +""+ avarage);
 	}
-	
+	//test1 
 	
 	
 	
