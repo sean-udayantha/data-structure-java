@@ -32,6 +32,7 @@ public class QueueX {
 		 
 	      }
 	
+	//peek function
      public int peekFront() {
 	      if (nItems == 0)  {
 	           System.out.println("Queue is empty");
@@ -41,6 +42,7 @@ public class QueueX {
 	           return queArray[front];
 	      }
 	}
+     // remove function
      public int remove() {
         if (nItems == 0)  {
             System.out.println("Queue is empty");
@@ -51,7 +53,7 @@ public class QueueX {
             return queArray[front++];
         }
     }
-     
+   //check the array   
 public boolean isEmpty(){
 	 if (nItems == 0)  {
          System.out.println("Queue is empty");
@@ -61,6 +63,7 @@ public boolean isEmpty(){
          return false;
     }
 }
+//check the array
 public boolean isfull(){
 	 if (nItems == maxSize)  {
          System.out.println("Queue is full");

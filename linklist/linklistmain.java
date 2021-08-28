@@ -14,13 +14,15 @@ public class linklistmain {
 				L3.Next =null;
 				L1.Next .Next.displayDetails();*/
 				
-				linklist thelist =new linklist();
+				linklist thelist =new linklist();// create a new list
 				
+				// insert four items
 				thelist.insertFrist("prashani",69.5);
 				thelist.insertFrist("aravinda",78.0);
 				thelist.insertFrist("nipuna",53.5);
 				
-				thelist.displaylist();
+				thelist.displaylist();//display the list
+
 	}
 
 }
